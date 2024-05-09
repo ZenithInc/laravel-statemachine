@@ -13,7 +13,7 @@ class Transition
 
     private string $event;
 
-    private array $actions;
+    private array $actions = [];
 
     public function getSource(): string
     {
