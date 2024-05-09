@@ -1,0 +1,29 @@
+{
+    "name": "zenithsu/laravel-statemachine",
+    "description": "The zenith state machine is a powerful tool based on PHP designed to manage complex system states and their transitions. It adopts the configuration style of Spring StateMachine, providing a familiar and effective framework for tracking and controlling various process states.",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "11.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zenith\\LaravelStateMachine\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zenith\\LaravelStateMachine\\StateMachineServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "ZenithSu",
+            "email": "happy@hakcing.icu"
+        }
+    ],
+    "minimum-stability": "stable"
+}
